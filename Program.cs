@@ -14,6 +14,7 @@ try
     }
     StatisticsHelper.CalculateAverage(numbers);
     //StatisticsHelper.CalculateMax(numbers);
+    StatisticsHelper.CalculateMin(numbers);
 }
 catch (Exception e)
 {
