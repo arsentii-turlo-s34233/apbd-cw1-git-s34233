@@ -4,7 +4,11 @@ using apbd_cw1_git_s34233;
 //New Comment
 try
 {
+//<<<<<<< HEAD
     Console.WriteLine("Write integers in a one line separated by commas (',')");
+//=======
+    Console.WriteLine("Type integers in a one line separated by commas (',')");
+//>>>>>>> feature-conflict
     string input = Console.ReadLine();
     string[] input_pieces = input.Split(',');
     int[] numbers = new int[input_pieces.Length];
