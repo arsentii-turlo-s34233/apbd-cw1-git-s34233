@@ -13,6 +13,7 @@ try
         numbers[i] = int.Parse(input_pieces[i]);
     }
     StatisticsHelper.CalculateAverage(numbers);
+    //StatisticsHelper.CalculateMax(numbers);
 }
 catch (Exception e)
 {
