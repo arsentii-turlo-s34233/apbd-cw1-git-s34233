@@ -27,5 +27,16 @@ public class StatisticsHelper
     }
 
     public static int CalculateMin(int[] numbers)
+    {
+        int min = numbers[0];
+        for (int i = 0; i < numbers.Length; i++)
+        {
+            if (numbers[i] < min)
+            {
+                min = numbers[i];
+            }
+        }
+        return min;
+    }
 
 }
