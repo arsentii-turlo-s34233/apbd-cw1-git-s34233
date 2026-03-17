@@ -1,5 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+using apbd_cw1_git_s34233;
+
 try
 {
     Console.WriteLine("Enter integers in a one line separated by commas (',')");
@@ -10,6 +12,7 @@ try
     {
         numbers[i] = int.Parse(input_pieces[i]);
     }
+    StatisticsHelper.CalculateAverage(numbers);
 }
 catch (Exception e)
 {
